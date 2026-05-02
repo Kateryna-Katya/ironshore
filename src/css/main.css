@@ -397,3 +397,21 @@ border-bottom: 1px solid #757575;
     }
 
 }
+/* Stay connected */
+.contact-label{
+    margin-bottom: 48px;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        text-align: center;
+
+}
