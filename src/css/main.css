@@ -203,3 +203,63 @@ padding-bottom: 48px;
     width: 665px;
  }
 }
+.back-two{
+    background-image: url(/img/systems/mob.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+@media only screen and (min-width: 1440px) {
+.back-two {
+        background-image: url(/img/systems/desk.png);
+    }
+}
+/* Systems */
+.systems-slider-wrapper{
+    display: flex;
+    align-items: start;
+    gap: 16px;
+}
+.wrap-swiper{
+    width: 286px;
+}
+.systems-swiper .swiper-slide{
+border: 1px solid #757575;
+    padding: 10px 16px;
+    width: 135px !important;
+    height: 168px !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.systems-next{
+    margin-top: 8px;
+margin-left: auto;
+margin-right: 0;
+background: inherit;
+border: none;
+width: 60px;
+height: 60px;
+display: flex;
+}
+@media only screen and (min-width: 1440px) {
+  .systems-wrapper{
+    width: 620px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+.wrap-swiper {
+width: 474px;
+}
+.systems-swiper .swiper-slide {
+width: 142px !important;
+}
+.systems-slider-wrapper{
+    width: 528px;
+    margin-left: auto;
+    margin-right: 0;
+}
+}
+/* Mood */
