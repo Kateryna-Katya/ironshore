@@ -27,6 +27,10 @@ h3{
 @media only screen and (min-width: 1440px) {
   body{
     font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+  h2{
+    font-size: 52px;
   }
   h3{
     font-size: 18px;
