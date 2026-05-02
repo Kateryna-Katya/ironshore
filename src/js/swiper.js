@@ -25,8 +25,14 @@ const gallerySwiper = new Swiper('.gallery-swiper', {
   modules: [Navigation],
   slidesPerView: 1,
   spaceBetween: 16,
-
+loop: true,
   navigation: {
     nextEl: '.gallery-next',
+    },
+      breakpoints: {
+    1440: {
+            slidesPerView: 2,
+        spaceBetween: 24,
+    },
   },
 });
